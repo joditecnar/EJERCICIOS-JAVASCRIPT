@@ -1,0 +1,66 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery Arreglos</title>
+    <script type="text/javascript">
+       
+        var arreglo = new Array ();
+
+        arreglo.push (3);
+        arreglo.push ('hola mundo!');
+
+        arreglo[0] = 'John Jairo Díaz Torres'
+
+        console.log(arreglo[0]);
+       
+
+/*otra forma*/
+       var arreglo = [1,2,3];
+
+       console .log(arreglo.length);
+
+/*otra forma*/
+var arreglo = [1,'Diaz','Torres'];
+
+for(i=0;i<arreglo.length;i++)
+        console.log(arreglo[i]);
+
+
+var arreglo = [[1,2,3,],['a','b','c']];
+
+for(i=0;i<arreglo[1].length;i++)
+        console.log(arreglo[1][i]);
+
+
+var arreglo = [[1,2,3,],['a','b','c']];
+var cadena = arreglo [1].join('');
+
+console.log(cadena);
+
+
+var cadena = 'abc';
+
+var arreglo = cadena.split('');
+    console.log(arreglo[1]);
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+</head>
+<body>
+    
+    
+    
+</body>
+</html>
